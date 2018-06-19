@@ -3385,17 +3385,19 @@ footer a:hover, footer a:focus {
 
 .footer-bottom .copyright span {
     display: inline-block;
+    color: #000000;
 }
 
 .footer-bottom .copyright span::after {
     content: "|";
     display: inline-block;
     padding: 0 1rem 0 1.2rem;
-    color: rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
 }
 
 .footer-bottom .copyright span:last-child::after {
     display: none;
+
 }
 
 
@@ -3457,6 +3459,7 @@ footer a:hover, footer a:focus {
     }
     .footer-bottom .copyright span {
         display: block;
+
     }
     .footer-bottom .copyright span::after {
         display: none;
